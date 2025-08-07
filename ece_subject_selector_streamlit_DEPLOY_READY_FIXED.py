@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 # Use relative path so it works on Streamlit Cloud
-df = pd.read_csv("ece_subjects_all_years_FINAL.csv")
+df = pd.read_csv("ece_subjects_all_years_FINAL_BIOMED_HOTFIX.csv")
 
 st.set_page_config(page_title="ECE Subject Selector", layout="wide")
 st.title("📚 ECE Subject Selector")
